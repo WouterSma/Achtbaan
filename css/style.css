@@ -19,11 +19,19 @@
   .topnav a:hover {
     background-color: #ebdc0a;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #ebdc0a;
     color: black;
+  }
+
+  .topnav img {
+      max-width: 15%;
+
   }
   
