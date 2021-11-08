@@ -1,8 +1,20 @@
 /* Hier komt de CSS 
 *//* Add a black background color to the top navigation */
+.header h1 {
+  text-align: center;
+  background-color: rgb(36, 38, 192);
+  color: #ebdc0a;
+  margin: 0; 
+  font-family: impact;
+  font-size: 45px;
+}
+
 .topnav {
     background-color: rgb(36, 38, 192);
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   /* Style the links inside the navigation bar */
@@ -12,26 +24,17 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+    font-family: arial;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ebdc0a;
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #ebdc0a;
-    color: black;
   }
 
   .topnav img {
       max-width: 15%;
-
   }
   

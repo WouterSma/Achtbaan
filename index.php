@@ -5,6 +5,9 @@
     <title>Super Coaster</title>  
   </head>
   <body>
+    <div class='header'>
+      <h1>Super Coaster</h1>
+    </div>
   <?php require_once 'header.php'; ?>
     
     
